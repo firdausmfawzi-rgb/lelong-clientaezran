@@ -139,7 +139,7 @@ footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);color:v
 <li><div><b data-i18n="s3">Receive your access code</b><p data-i18n="s3p">You get a personal code and the link. The code works for the period you pay for (30 days per month). Renew only if you want to.</p></div></li>
 </ol>
 <div class="qr"><div class="amount" id="amount">RM50</div><img src="../img/qr-maybank.png" width="512" height="580" alt="DuitNow QR code for payment to Eden Assets & Property Solutions" data-alt-ms="Kod QR DuitNow untuk bayaran kepada Eden Assets & Property Solutions" data-alt-en="DuitNow QR code for payment to Eden Assets & Property Solutions"><small data-i18n="qr_c">Scan with any Malaysian banking app · Eden Assets & Property Solutions</small></div>
-<div class="cta" style="margin-top:14px"><a class="btn wa" id="waBtn" href="https://wa.me/60193278611?text=Hi%20Aezran%2C%20I%20have%20paid%20RM50%20for%20the%2030-day%20premium%20auction%20list.%20Here%20is%20my%20receipt." target="_blank" rel="noopener" data-i18n="wa">💬 Send receipt on WhatsApp</a></div>
+<div class="cta" style="margin-top:14px"><a class="btn wa" id="waBtn" href="https://wa.me/60192844158?text=Hi%20Aezran%2C%20I%20have%20paid%20RM50%20for%20the%2030-day%20premium%20auction%20list.%20Here%20is%20my%20receipt." target="_blank" rel="noopener" data-i18n="wa">💬 Send receipt on WhatsApp</a></div>
 </section>
 
 <section>
@@ -148,11 +148,11 @@ footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);color:v
 <details><summary data-i18n="q2">What do I get after paying?</summary><p data-i18n="a2">A personal access code, sent on WhatsApp. Enter it once on the Premium site and the phone remembers it.</p></details>
 <details><summary data-i18n="q3">Where does the information come from?</summary><p data-i18n="a3">From the public auction notices (proclamations of sale) of the banks, collected and checked every day. Always confirm the details with the auctioneer before you bid.</p></details>
 <details><summary data-i18n="q4">Can I share my code?</summary><p data-i18n="a4">The code is personal, for your own phone and family. A code that is passed around can be switched off.</p></details>
-<details><summary data-i18n="q5">Who is behind the list?</summary><p data-i18n="a5">Aezran. Questions before you pay? WhatsApp 019-3278611.</p></details>
+<details><summary data-i18n="q5">Who is behind the list?</summary><p data-i18n="a5">Aezran. Questions before you pay? WhatsApp 019-2844158.</p></details>
 </section>
 
 <p class="fine" data-i18n="fine">The list is a reference to help you find auction properties. It is not legal or financial advice, and Aezran is not the auctioneer or the bank. Auction dates, reserve prices and conditions can change; always check the proclamation of sale and the auctioneer's announcement before bidding.</p>
-<footer><span>Aezran</span><span>019-3278611</span><a href="https://aezran.lelongbidgroup.com/" data-i18n="prem_site">Premium site</a><a href="https://clientaezran.lelongbidgroup.com/" data-i18n="trial_site">Free preview</a></footer>
+<footer><span>Aezran</span><span>019-2844158</span><a href="https://aezran.lelongbidgroup.com/" data-i18n="prem_site">Premium site</a><a href="https://clientaezran.lelongbidgroup.com/" data-i18n="trial_site">Free preview</a></footer>
 </div>
 <div class="sticky wrap" id="stickyCta" style="padding-top:0"><a class="btn prem" href="#pay" data-i18n="cta2">Unlock Premium · RM50 for 30 days</a></div>
 
@@ -189,13 +189,13 @@ q1:'Adakah RM50 bayaran sekali sahaja?',a1:'RM50 memberi anda akses 30 hari. Tia
 q2:'Apa yang saya dapat selepas bayar?',a2:'Kod akses peribadi, dihantar di WhatsApp. Masukkan sekali di laman Premium dan telefon anda akan mengingatinya.',
 q3:'Dari mana maklumat ini datang?',a3:'Daripada notis lelong awam (perisytiharan jualan) bank, dikumpul dan disemak setiap hari. Sentiasa sahkan butiran dengan pelelong sebelum membida.',
 q4:'Boleh saya kongsi kod saya?',a4:'Kod itu peribadi, untuk telefon anda dan keluarga sendiri. Kod yang diedarkan boleh dimatikan.',
-q5:'Siapa di sebalik senarai ini?',a5:'Aezran. Ada soalan sebelum bayar? WhatsApp 019-3278611.',
+q5:'Siapa di sebalik senarai ini?',a5:'Aezran. Ada soalan sebelum bayar? WhatsApp 019-2844158.',
 fine:'Senarai ini rujukan untuk membantu anda mencari hartanah lelong. Ia bukan nasihat undang-undang atau kewangan, dan Aezran bukan pelelong atau bank. Tarikh lelong, harga rizab dan syarat boleh berubah; sentiasa semak perisytiharan jualan dan pengumuman pelelong sebelum membida.',
 prem_site:'Laman Premium',trial_site:'Pratonton percuma',cta2:'Buka Premium · RM50 untuk 30 hari'}};
 var PLAN='premium',PRICES={premium:'50',sip:'99'};
 var WA={en:{premium:'Hi Aezran, I have paid RM50 for the 30-day Premium auction list. Here is my receipt.',sip:'Hi Aezran, I have paid RM99 for the 30-day VIP Investor Plan. Here is my receipt.'},
  ms:{premium:'Hi Aezran, saya sudah bayar RM50 untuk senarai lelong Premium 30 hari. Ini resit saya.',sip:'Hi Aezran, saya sudah bayar RM99 untuk VIP Investor Plan 30 hari. Ini resit saya.'}};
-function waHref(){var l=document.documentElement.lang==='ms'?'ms':'en';document.getElementById('waBtn').href='https://wa.me/60193278611?text='+encodeURIComponent(WA[l][PLAN])}
+function waHref(){var l=document.documentElement.lang==='ms'?'ms':'en';document.getElementById('waBtn').href='https://wa.me/60192844158?text='+encodeURIComponent(WA[l][PLAN])}
 function setPlan(p){PLAN=p==='sip'?'sip':'premium';document.querySelectorAll('.plans button').forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-plan')===PLAN?'true':'false')});document.getElementById('amount').textContent='RM'+PRICES[PLAN];waHref()}
 document.querySelectorAll('[data-plan]').forEach(function(b){b.addEventListener('click',function(){setPlan(b.getAttribute('data-plan'))})});
 var EN={};document.querySelectorAll('[data-i18n]').forEach(function(e){EN[e.getAttribute('data-i18n')]=e.innerHTML});
